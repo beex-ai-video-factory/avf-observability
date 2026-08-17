@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+
+# Build & Compilation Output
+dist/
+build/
+out/
+*.tsbuildinfo
+.turbo/
+
+# Testing & Coverage
+coverage/
+.coverage
+.nyc_output/
+*.lcov
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Telemetry / Trace / Metric Outputs
+telemetry_data/
+trace_exports/
+*.otlp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Local cache & temp
+.tmp/
+.cache/
+tmp/

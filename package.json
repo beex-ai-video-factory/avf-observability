@@ -1,0 +1,43 @@
+{
+  "name": "@avf/platform-observability",
+  "version": "1.0.0",
+  "description": "AI Video Factory Platform Observability, Distributed Tracing, Structured Logging, Secret Redaction, and Prometheus Metrics Exporter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint 'src/**/*.ts' 'tests/**/*.ts'",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "avf",
+    "observability",
+    "tracing",
+    "opentelemetry",
+    "logging",
+    "metrics",
+    "prometheus",
+    "security",
+    "redaction"
+  ],
+  "author": "AI Video Factory Architecture & Engineering",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@avf/contracts": "file:../R01_contracts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.19",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
